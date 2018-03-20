@@ -7,6 +7,8 @@
 
 @endsection
 
+include
+
 @section('styles')
     {{ Html::style(mix('assets/auth/css/auth.css')) }}
 @endsection

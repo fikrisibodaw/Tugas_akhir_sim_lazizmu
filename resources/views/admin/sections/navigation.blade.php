@@ -24,50 +24,67 @@
 
         <!-- sidebar menu -->
         <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
-
-            <div class="menu_section">
-                <h3>Menu Utama</h3>
-                <ul class="nav side-menu">
-                  <li>
-                    <a href="{{ route('admin.dashboard') }}">
-                      <i class="fa fa-home" aria-hidden="true"></i>
+          <div class="menu_section">
+            <h3>Menu Utama</h3>
+              <ul class="nav side-menu">
+                <li>
+                  <a href="{{ route('admin.dashboard') }}">
+                    <i class="fa fa-dashboard" aria-hidden="true"></i>
                       Dashboard
-                    </a>
-                  </li>
-                </ul>
+                  </a>
+                </li>
+              </ul>
 
-                <ul class="nav side-menu">
-                  <li>
-                    <a href="{{ route('admin.users') }}">
-                      <i class="fa fa-users" aria-hidden="true"></i>
-                      Pengumuman
-                    </a>
-                  </li>
-                </ul>
-
-                <ul class="nav side-menu">
-                    <li>
-                        <a>
-                          <i class="fa fa-list"></i>
-                          Setelan
-                          <span class="fa fa-chevron-down"></span>
+              <ul class="nav side-menu">
+                <li>
+                  <a>
+                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                        Pengumuman
+                      <span class="fa fa-chevron-down"></span>
+                  </a>
+                    <ul class="nav child_menu">
+                      <li>
+                        <a href="{{ route('log-viewer::dashboard') }}">
+                          Lihat Pengumuman
                         </a>
-                        <ul class="nav child_menu">
-                            <li>
-                                <a href="{{ route('log-viewer::dashboard') }}">
-                                    Buat Akun
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ route('log-viewer::logs.list') }}">
-                                    {{ __('views.backend.section.navigation.menu_2_3') }}
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                  </ul>
-            </div>
-      </div>
+                      </li>
+                      <li>
+                        <a href="{{ route('log-viewer::dashboard') }}">
+                          Buat Pengumuman
+                        </a>
+                      </li>
+                    </ul>
+                </li>
+              </ul>
+
+              <ul class="nav side-menu">
+                <li>
+                  <a>
+                    <i class="fa fa-cog"></i>
+                        Setelan
+                      <span class="fa fa-chevron-down"></span>
+                  </a>
+                    <ul class="nav child_menu">
+                      <li>
+                        <a href="{{ route('log-viewer::dashboard') }}">
+                            Buat Akun
+                        </a>
+                      </li>
+                      <li>
+                        <a href="{{ route('log-viewer::logs.list') }}">
+                            Ubah Profil
+                        </a>
+                      </li>
+                      <li>
+                        <a href="{{ route('log-viewer::logs.list') }}">
+                            Ganti Kata Sandi
+                        </a>
+                      </li>
+                    </ul>
+                </li>
+              </ul>
+          </div>
+        </div>
         <!-- /sidebar menu -->
 
     </div>
