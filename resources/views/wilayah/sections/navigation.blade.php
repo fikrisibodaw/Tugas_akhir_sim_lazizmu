@@ -37,7 +37,7 @@
 
               <ul class="nav side-menu">
                 <li>
-                  <a href="{{ route('admin.dashboard') }}">
+                  <a href="{{ route('wilayah.index') }}">
                     <i class="fa fa-dashboard" aria-hidden="true"></i>
                       Belajar
                   </a>
