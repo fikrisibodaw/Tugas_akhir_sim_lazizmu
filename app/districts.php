@@ -6,5 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class districts extends Model
 {
-    //aaasdasdasdasdasd
+    //
+    protected $table = 'districts';
+    public $timestamps = false;
+    protected $primaryKey = 'id';
 }
