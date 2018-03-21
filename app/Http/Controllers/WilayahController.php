@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\kecamatan;
 
-class KecamatanController extends Controller
+class WilayahController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,8 +14,6 @@ class KecamatanController extends Controller
     public function index()
     {
         //
-        $data = kecamatan::get();
-        
     }
 
     /**
