@@ -40,3 +40,5 @@
     @parent
     {{ Html::style(mix('assets/admin/css/dashboard.css')) }}
 @endsection
+
+

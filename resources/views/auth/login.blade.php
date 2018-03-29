@@ -61,3 +61,4 @@
 
     {{ Html::style(mix('assets/auth/css/login.css')) }}
 @endsection
+

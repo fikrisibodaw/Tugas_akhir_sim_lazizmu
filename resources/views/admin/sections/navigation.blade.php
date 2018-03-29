@@ -35,14 +35,14 @@
                 </li>
               </ul>
 
-              <ul class="nav side-menu">
+              <!--<ul class="nav side-menu">
                 <li>
                   <a href="{{ route('admin.dashboard') }}">
                     <i class="fa fa-dashboard" aria-hidden="true"></i>
                       Belajar
                   </a>
                 </li>
-              </ul>
+              </ul>-->
 
               <ul class="nav side-menu">
                 <li>

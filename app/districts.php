@@ -11,3 +11,5 @@ class districts extends Model
     public $timestamps = false;
     protected $primaryKey = 'id';
 }
+
+
